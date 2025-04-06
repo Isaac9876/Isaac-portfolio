@@ -1,5 +1,7 @@
 {
-  
+  "name": "beautiful-portfolio",
+  "homepage": "https://Isaac9876.github.io/beautiful-portfolio",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
