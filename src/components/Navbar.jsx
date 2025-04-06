@@ -2,7 +2,7 @@ import { useEffect } from "react"
 
 export const Navbar = ({menuOpen, setMenuOpen}) => {          
 
-    useEffect(() => {
+    useEffect(() => {  
         document.body.style.overflow = menuOpen ? "hidden" : "";
     }, [menuOpen]);
 
@@ -11,7 +11,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
             <div className="flex justify-between items-center h-16">
                 <a href="#home" className="font-mono text-xl font-bold text-white">
                     {" "}
-                    pedro <span className="text-blue-500">.tech</span>{" "}
+                    Kodom<span className="text-blue-500">.tech</span>{" "}
                 </a>
 
                 <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}
