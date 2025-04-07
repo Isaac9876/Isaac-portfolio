@@ -2,20 +2,24 @@
 
 :root {
   --bg-primary: #ffffff;
-  --text-primary: #0a0a0a;
-  --text-secondary: #4b5563;
-  --accent-primary: #3b82f6;
-  --accent-secondary: #22d3ee;
-  --border-color: rgba(59, 130, 246, 0.1);
+  --text-primary: #111827;
+  --text-secondary: #374151;
+  --accent-primary: #1d4ed8;
+  --accent-secondary: #0369a1;
+  --border-color: rgba(29, 78, 216, 0.2);
+  --button-hover-bg: rgba(29, 78, 216, 0.15);
+  --button-hover-shadow: rgba(29, 78, 216, 0.4);
 }
 
 .dark {
   --bg-primary: #0a0a0a;
-  --text-primary: #f3f4f6;
-  --text-secondary: #9ca3af;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
   --accent-primary: #3b82f6;
-  --accent-secondary: #22d3ee;
-  --border-color: rgba(59, 130, 246, 0.1);
+  --accent-secondary: #38bdf8;
+  --border-color: rgba(59, 130, 246, 0.2);
+  --button-hover-bg: rgba(59, 130, 246, 0.15);
+  --button-hover-shadow: rgba(59, 130, 246, 0.4);
 }
 
 html, body {

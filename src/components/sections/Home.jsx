@@ -20,14 +20,14 @@ export const Home = () => {
                 <div className="flex space-x-4">
                 <a 
                   href="#projects" 
-                  className="bg-blue-500 text-white py-3 px-6 rounded-lg font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
+                  className="bg-[var(--accent-primary)] text-white py-3 px-6 rounded-lg font-medium transition-all duration-300 relative overflow-hidden hover:-translate-y-1 hover:shadow-[0_0_20px_var(--button-hover-shadow)] hover:scale-105 active:scale-95"
                 >
                     View Projects
                 </a>
 
                 <a 
                   href="#contact" 
-                  className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded-lg font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10"
+                  className="border border-[var(--accent-primary)] text-[var(--accent-primary)] py-3 px-6 rounded-lg font-medium transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_20px_var(--button-hover-shadow)] hover:bg-[var(--button-hover-bg)] hover:scale-105 active:scale-95"
                 >
                     Contact Me
                 </a>
