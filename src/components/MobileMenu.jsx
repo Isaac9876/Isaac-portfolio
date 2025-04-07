@@ -46,6 +46,32 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                         About
                     </a>
                     <a 
+                    href="#resume"
+                    onClick={() => setMenuOpen(false)}
+                    className={`text-2xl font-semibold text-white my-4 transform transition-all duration-500 hover:text-transparent hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-400 hover:bg-clip-text hover:scale-110
+                        ${
+                            menuOpen
+                              ? "opacity-100 translate-y-0"
+                              : "opacity-0 translate-y-5"
+                         }
+                      `}
+                    >
+                        Resume
+                    </a>
+                    <a 
+                    href="#certifications"
+                    onClick={() => setMenuOpen(false)}
+                    className={`text-2xl font-semibold text-white my-4 transform transition-all duration-500 hover:text-transparent hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-400 hover:bg-clip-text hover:scale-110
+                        ${
+                            menuOpen
+                              ? "opacity-100 translate-y-0"
+                              : "opacity-0 translate-y-5"
+                         }
+                      `}
+                    >
+                        Certifications
+                    </a>
+                    <a 
                     href="#projects"
                     onClick={() => setMenuOpen(false)}
                     className={`text-2xl font-semibold text-white my-4 transform transition-all duration-500 hover:text-transparent hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-400 hover:bg-clip-text hover:scale-110

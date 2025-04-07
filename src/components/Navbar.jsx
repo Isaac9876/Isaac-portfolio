@@ -36,6 +36,16 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                     >
                         <span className="group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-[var(--accent-primary)] group-hover:to-[var(--accent-secondary)] group-hover:bg-clip-text transition-all duration-300">About</span>
                     </a>
+                    <a href="#resume"
+                        className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-all duration-300 hover:translate-y-[-2px] relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-gradient-to-r after:from-[var(--accent-primary)] after:to-[var(--accent-secondary)] after:transition-all after:duration-300 hover:after:w-full group"
+                    >
+                        <span className="group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-[var(--accent-primary)] group-hover:to-[var(--accent-secondary)] group-hover:bg-clip-text transition-all duration-300">Resume</span>
+                    </a>
+                    <a href="#certifications"
+                        className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-all duration-300 hover:translate-y-[-2px] relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-gradient-to-r after:from-[var(--accent-primary)] after:to-[var(--accent-secondary)] after:transition-all after:duration-300 hover:after:w-full group"
+                    >
+                        <span className="group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-[var(--accent-primary)] group-hover:to-[var(--accent-secondary)] group-hover:bg-clip-text transition-all duration-300">Certifications</span>
+                    </a>
                     <a href="#projects"
                         className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-all duration-300 hover:translate-y-[-2px] relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-gradient-to-r after:from-[var(--accent-primary)] after:to-[var(--accent-secondary)] after:transition-all after:duration-300 hover:after:w-full group"
                     >
