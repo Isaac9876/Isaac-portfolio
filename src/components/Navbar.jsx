@@ -1,16 +1,17 @@
-import { useEffect } from "react"
+import { useEffect } from "react";
+import { ThemeToggle } from "./ThemeToggle";
 
-export const Navbar = ({menuOpen, setMenuOpen}) => {          
+export const Navbar = ({menuOpen, setMenuOpen}) => {
 
     useEffect(() => {  
         document.body.style.overflow = menuOpen ? "hidden" : "";
     }, [menuOpen]);
 
-    return <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.95)] backdrop-blur-xl border-b border-white/10 shadow-lg transition-all duration-500 ease-in-out">
+    return <nav className="fixed top-0 w-full z-40 bg-[var(--bg-primary)] bg-opacity-95 backdrop-blur-xl border-b border-[var(--border-color)] shadow-lg transition-all duration-500 ease-in-out">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
-                <a href="#home" className="font-mono text-xl font-bold text-white group transition-all duration-300 ease-in-out hover:scale-105">
-                    Kodom<span className="text-blue-500 group-hover:text-blue-400 animate-pulse">.tech</span>
+                <a href="#home" className="font-mono text-xl font-bold text-[var(--text-primary)] group transition-all duration-300 ease-in-out hover:scale-105">
+                    Kodom<span className="text-[var(--accent-primary)] group-hover:text-[var(--accent-secondary)] animate-pulse">.tech</span>
                 </a>
 
                 <div 
@@ -25,6 +26,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                 </div>
 
                 <div className="hidden md:flex items-center space-x-8">
+                    <ThemeToggle />
                     <a href="#home"
                         className="text-gray-300 hover:text-white transition-all duration-300 hover:translate-y-[-2px] relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-gradient-to-r after:from-blue-500 after:to-cyan-400 after:transition-all after:duration-300 hover:after:w-full group"
                     >
