@@ -6,12 +6,12 @@ export const ThemeToggle = () => {
     return (
         <button
             onClick={toggleTheme}
-            className="p-2 rounded-lg transition-all duration-300 hover:bg-blue-500/10"
+            className="p-2 rounded-lg transition-all duration-300 hover:bg-blue-500/10 fixed top-4 right-4 z-50"
             aria-label="Toggle theme"
         >
             {isDarkMode ? (
                 <svg
-                    className="w-6 h-6 text-blue-400"
+                    className="w-8 h-8 md:w-6 md:h-6 text-blue-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -25,7 +25,7 @@ export const ThemeToggle = () => {
                 </svg>
             ) : (
                 <svg
-                    className="w-6 h-6 text-blue-400"
+                    className="w-8 h-8 md:w-6 md:h-6 text-blue-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
