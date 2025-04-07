@@ -38,7 +38,7 @@ export const Home = () => {
                 <RevealOnScroll>
                 <div className="order-1 md:order-2">
                     <ImageContainer 
-                        src="/src/assets/IMG-20240721-WA0006.jpg" 
+                        src="IMG-20240721-WA0006.jpg" 
                         alt="Isaac Tech" 
                         className="w-full aspect-[3/4] max-w-md mx-auto rounded-2xl shadow-2xl shadow-blue-500/10 hover:shadow-blue-500/20 transition-all duration-500"
                     />

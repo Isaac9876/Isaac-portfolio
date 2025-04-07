@@ -9,10 +9,17 @@ export const ImageContainer = ({ src, alt, className }) => {
         setIsLoaded(true);
     };
 
-    // Ensure the src path includes the base URL
+    // Handle image paths from assets directory
     const getImagePath = (path) => {
         if (path.startsWith('http')) return path;
-        return `/${import.meta.env.BASE_URL}${path.startsWith('/') ? path.slice(1) : path}`;
+        try {
+            // Try to import image from assets
+            const imageUrl = new URL(`../assets/${path}`, import.meta.url).href;
+            return imageUrl;
+        } catch (error) {
+            console.error('Error loading image:', error);
+            return path;
+        }
     };
 
     return (

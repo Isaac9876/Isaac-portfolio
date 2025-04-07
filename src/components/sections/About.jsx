@@ -41,12 +41,12 @@ export const About = () => {
                         </div>
                         <div className="grid grid-cols-2 gap-4">
                             <ImageContainer 
-                                src="/profile2.jpg" 
+                                src="IMG-20240721-WA0008.jpg" 
                                 alt="Isaac Tech" 
                                 className="w-full aspect-square rounded-xl"
                             />
                             <ImageContainer 
-                                src="/profile3.jpg" 
+                                src="IMG-20240721-WA0033.jpg" 
                                 alt="Isaac Tech" 
                                 className="w-full aspect-square rounded-xl"
                             />
