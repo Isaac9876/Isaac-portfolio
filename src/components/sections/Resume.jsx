@@ -9,7 +9,6 @@ export const Resume = () => {
                 </RevealOnScroll>
 
                 <div className="grid md:grid-cols-2 gap-8">
-                    {/* Education Section */}
                     <RevealOnScroll>
                         <div className="bg-[var(--bg-primary)] p-6 rounded-xl shadow-lg border border-[var(--border-color)] hover:shadow-2xl transition-all duration-300 hover:scale-[1.02]">
                             <h3 className="text-2xl font-bold mb-4 text-[var(--text-primary)]">Education</h3>
