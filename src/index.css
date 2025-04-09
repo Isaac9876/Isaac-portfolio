@@ -2,13 +2,13 @@
 
 :root {
   --bg-primary: #ffffff;
-  --text-primary: #1a1a1a;
-  --text-secondary: #2d3748;
+  --text-primary: #000000;
+  --text-secondary: #1a1a1a;
   --accent-primary: #1d4ed8;
   --accent-secondary: #0369a1;
-  --border-color: rgba(29, 78, 216, 0.2);
-  --button-hover-bg: rgba(29, 78, 216, 0.15);
-  --button-hover-shadow: rgba(29, 78, 216, 0.4);
+  --border-color: rgba(29, 78, 216, 0.3);
+  --button-hover-bg: rgba(29, 78, 216, 0.2);
+  --button-hover-shadow: rgba(29, 78, 216, 0.5);
 }
 
 .dark {
